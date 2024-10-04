@@ -12,7 +12,7 @@ function createInitialGrid() {
   const grid = [];
   for (let row = 0; row < 15; row++) {
     const currentRow = [];
-    for (let col = 0; col < 50; col++) {
+    for (let col = 0; col < 40; col++) {
       currentRow.push(createNode(col, row));
     }
     grid.push(currentRow);
